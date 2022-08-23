@@ -2,27 +2,27 @@
 
 Minimum eight characters, at least one letter and one number:
 ```js
-"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$
 ```
 
 Minimum eight characters, at least one letter, one number and one special character:
 ```js
-"^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$
 ```
 
 Minimum eight characters, at least one uppercase letter, one lowercase letter and one number:
 ```js
-"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$
 ```
 
 Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character:
 ```js
-"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
 ```
 
 Minimum eight and maximum 10 characters, at least one uppercase letter, one lowercase letter, one number and one special character:
 ```js
-"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$"
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$
 ```
 
 ---------------------------------------------------------------
