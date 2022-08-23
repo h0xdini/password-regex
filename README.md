@@ -30,7 +30,7 @@ Minimumu eight characters, at least one uppercase letter, one lowercase letter, 
 ```js
 ^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$#!%*?&])[A-Za-z0-9@#$!%*?&]{8,}$
 ```
-
+---------------------------------------------------------------
 ## Detailed
 ```js
 (?=.*[a-z])        // use positive look ahead to see if at least one lower case letter exists
