@@ -24,3 +24,9 @@ Minimum eight and maximum 10 characters, at least one uppercase letter, one lowe
 ```js
 "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$"
 ```
+
+## Detailed
+(?=.*[a-z])        // use positive look ahead to see if at least one lower case letter exists
+(?=.*[A-Z])        // use positive look ahead to see if at least one upper case letter exists
+(?=.*\d)           // use positive look ahead to see if at least one digit exists
+[-+_!@#$%^&*.,?]           // use positive look ahead to see if at least one non-word character exists
