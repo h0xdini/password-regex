@@ -28,7 +28,7 @@ Minimum eight and maximum 10 characters, at least one uppercase letter, one lowe
 ---------------------------------------------------------------
 Minimumu eight characters, at least one uppercase letter, one lowercase letter, one special character, numbers are not crutial
 ```js
-^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$#!%*?&])[A-Za-z0-9@#$!%*?&]{8,}$
+^(?=.*[a-z])(?=.*[A-Z])(?=.*[-+_!@#$%^&*.,?])[A-Za-z0-9-+_!@#$%^&*.,?]{8,}$
 ```
 ---------------------------------------------------------------
 ## Detailed
